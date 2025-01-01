@@ -1,0 +1,6 @@
+[tool.aerich]
+tortoise_orm = "app.db.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+pytest = "^8.0"
+pytest-cov = "^4.0"
